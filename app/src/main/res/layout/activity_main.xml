@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    tools:context="com.example.chenshuai.test_bar1.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_white"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="白色"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_black"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="黑色"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_dark"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="DARk"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_nodark"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="White"
+        android:layout_height="wrap_content" />
+</LinearLayout>
